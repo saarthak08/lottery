@@ -6,7 +6,6 @@ contract Lottery {
     address[] public players;
 
     
-    
     constructor() {
         manager=msg.sender;
     }
@@ -33,8 +32,7 @@ contract Lottery {
         _;
     }
     
-    function getPlayers() public view restricted returns (address[] memory hell) {
-        hell=players;
+    function getPlayers() public view restricted returns (address[] memory) {
         return players;
     }
     
