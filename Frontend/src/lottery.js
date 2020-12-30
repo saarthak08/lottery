@@ -1,6 +1,6 @@
 import web3 from "./web3";
 
-const contractAddress = "0x98B14716AC956d4b43C1F73e6d780f1CAa00925e";
+const contractAddress = "0xCd3aff574A8fC3560af396a04C74e13d249D4CEA";
 
 const abi = [
 	{ inputs: [], stateMutability: "nonpayable", type: "constructor" },
