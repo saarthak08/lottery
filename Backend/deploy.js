@@ -3,9 +3,8 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 const { abi, evm } = require("./compile");
 
 const walletProvider = new HDWalletProvider(
-	"share planet hollow clog cargo multiply shrimp flee apart rule exist axis",
-	"https://rinkeby.infura.io/v3/47a815f55cdf4d51a57fa94cc702b67a"
-);
+	"mnemonics-of-account",
+	"network-url");
 
 const web3 = new Web3(walletProvider);
 
